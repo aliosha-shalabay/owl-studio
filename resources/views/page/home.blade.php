@@ -1,0 +1,10 @@
+@extends('layouts.base')
+@section('content')
+    @include('section.home.header')
+    @include('section.home.services')
+    @include('section.home.about')
+    @include('section.home.count')
+    @include('section.home.portfolio')
+    @include('section.home.blog')
+    @include('section.home.contact')
+@endsection
