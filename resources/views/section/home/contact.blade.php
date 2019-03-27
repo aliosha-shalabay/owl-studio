@@ -45,30 +45,50 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <form class="contactform">
+                <div class="alert alert-success alert-dismissible fade show alert-success-request no-visible"
+                     role="alert">
+                </div>
+                <form class="contactform" method="post" action="{{route('create-request')}}">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                       required>
+                                <ul data-input-name="name" class="js-errors text-danger">
+
+                                </ul>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                <input type="email" class="form-control" name="email" id="email"
+                                       placeholder="Your Email" required>
+                                <ul data-input-name="email" class="js-errors text-danger">
+
+                                </ul>
                             </div>
                         </div>
                         <div class="col-lg-12">
                             <div class="form-group">
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                                <input type="text" class="form-control" name="subject" id="subject"
+                                       placeholder="Subject" required>
+                                <ul data-input-name="subject" class="js-errors text-danger">
+
+                                </ul>
                             </div>
                         </div>
                         <div class="col-lg-12">
                             <div class="form-group">
-                                <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                                <textarea class="form-control" name="message" rows="6" placeholder="Message"
+                                          required></textarea>
+                                <ul data-input-name="message" class="js-errors text-danger">
+
+                                </ul>
                             </div>
                         </div>
                         <div class="col-lg-12">
-                            <button type="submit" class="btn-hover btn">Submit Now<i class="fa fa-long-arrow-right"></i><span></span></button>
+                            <button type="submit" class="js-btn-send-request btn-hover btn">Submit Now<i
+                                        class="fa fa-long-arrow-right"></i><span></span></button><span class="js-loader"></span>
                         </div>
                     </div>
                 </form>

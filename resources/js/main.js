@@ -1,3 +1,44 @@
+function sendForm(formBtn) {
+
+    var form = $(formBtn).closest('form');
+    var url = form.attr('action');
+    var method = form.attr('method');
+    var data = form.serialize();
+    var response = false;
+
+    $.ajax({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        },
+        url: url,
+        async: false,
+        type: method,
+        enctype: 'multipart/form-data',
+        data: new FormData($(form).get(0)),
+        processData: false,
+        contentType: false,
+        beforeSend: function(){
+            $('.js-loader').show();
+            $(formBtn).attr('disabled', true);
+        },
+        success: function (res) {
+            $('.js-loader').hide();
+            $(formBtn).attr('disabled', false);
+
+            response = res;
+
+            if (response.success) {
+                $(form).trigger('reset');
+            }
+        },
+        errors: function (res) {
+            response = res;
+        }
+    });
+
+    return response;
+}
+
 $(document).ready(function () {
 
     'use strict';
@@ -69,8 +110,13 @@ $(document).ready(function () {
     // ========================================================================= //
     //  counterUp
     // ========================================================================= //
+    var flag = true;
+
     $(window).scroll(function() {
-        if ($(this).scrollTop() + $(this).height() > $('#count').offset().top) {
+        if ($(this).scrollTop() + $(this).height() > $('#count').offset().top && flag) {
+
+            flag = false;
+
             $('.counter').each(function() {
                 var $this = $(this),
                     countTo = $this.attr('data-count');
@@ -154,3 +200,30 @@ $(window).on("load", function () {
     });
 
 });
+
+$(document).on('click', '.js-btn-send-request', function (e) {
+    e.preventDefault();
+
+    var response = sendForm($(this));
+
+    if (response.success){
+        $('.js-errors').text('');
+
+        $('.alert-success-request').text(response.message).fadeIn(1500);
+
+        setTimeout(function () {
+            $('.alert-success-request').fadeOut(1000)
+        }, 10000);
+    }else {
+        $.each(JSON.parse(response.errors), function(key, value){
+            var ulError = $('.js-errors[data-input-name="'+ key +'"]');
+
+            $.each(value, function (i, v) {
+                $(ulError).append('<li>' + v + '</li>');
+            })
+        });
+    }
+
+
+
+})

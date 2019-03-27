@@ -1010,3 +1010,13 @@ button.btn:hover i {
 .header-content{
     text-align: center;
 }
+.no-visible{
+    display: none;
+}
+.js-loader{
+    background-image: url(../images/loader.gif);
+    background-repeat: no-repeat;
+    padding: 10px 18px;
+    display: none;
+
+}
