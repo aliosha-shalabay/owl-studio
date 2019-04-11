@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Http\Node\Model\SettingNodeModel;
+use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -13,7 +15,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        View::composer(['section.home.contact', 'layouts.base'], function ($view) {
+            $view->with(['setting' => SettingNodeModel::first()]);
+        });
     }
 
     /**

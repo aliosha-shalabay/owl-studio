@@ -532,7 +532,6 @@ nav ul li a {
 .about-description {
     display: block;
     overflow: hidden;
-    margin-top: 35px;
 }
 
 #about .about-description .p-heading {
@@ -574,7 +573,7 @@ nav ul li a {
 }
 .progress {
     overflow: visible;
-    height: 8px;
+    height: 5px;
     margin-bottom: 30px;
     background: #efefef;
 }
@@ -588,12 +587,13 @@ nav ul li a {
 }
 .progress-bar {
     position: relative;
-    background-color: #d35666;
+    /*background-color: #d35666;*/
+    background: linear-gradient(to right, rgba(215,236,244,1) 0%, rgba(210,55,73,1) 100%);
     position: relative;
     z-index: 176;
-    border-radius: 10px;
     border-width: 0px;
-    height: 8px;
+    height: 5px;
+    width: 0;
 
 }
 
@@ -1018,5 +1018,85 @@ button.btn:hover i {
     background-repeat: no-repeat;
     padding: 10px 18px;
     display: none;
+}
 
+/*-------------------------------------------------------------------------------------------*/
+/*  Pricing       ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+
+.Pricing-box {
+    border: 1px solid #f1f1f1;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.Pricing-box.highlight {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.Pricing-box.highlight hr {
+    border-color: #ddd;
+}
+
+.price-title h4, .price-title h5 {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.Pricing-box .price {
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+}
+
+.Pricing-box .price .price-sm {
+    font-size: 14px;
+    position: absolute;
+}
+
+.Pricing-box .price .price-lg {
+    padding-left: 10px;
+}
+
+.Pricing-box .price-tenure {
+    font-size: 12px;
+    color: #888;
+    font-weight: 400;
+    padding-top: 8px;
+}
+
+.Pricing-box .pricing-features {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.Pricing-box .pricing-features ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Pricing-box .pricing-features ul li {
+    padding: 6px;
+}
+.Pricing-box .spacing-grid .about-cv-btn{
+    margin-top: 0;
+}
+
+h2.title-about{
+    font-size: 22px;
+    color: #292929;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+.about-text p{
+    margin-bottom: 10px;
+}
+#service{
+    padding-bottom: 0;
 }

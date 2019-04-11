@@ -12,31 +12,28 @@
                         <div class="col-md-12">
                             <div class="contact-details">
                                 <h5>Phone</h5>
-                                <p>+77 022 177 59 05</p>
+                                <p>{{$setting->phone}}</p>
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="contact-details">
                                 <h5>Email</h5>
-                                <p>info@youremail.com</p>
+                                <p>{{$setting->email}}</p>
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="contact-details">
                                 <h5>Address</h5>
-                                <p>123 Qwerty Avenue NYC, USA</p>
+                                <p>{{$setting->{'address_' . app()->getLocale()} }}</p>
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="contact-details">
                                 <div class="socials-media">
                                     <ul>
-                                        <li><a href="index.html#"><i class="fa fa-facebook-f"></i></a></li>
-                                        <li><a href="index.html#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="index.html#"><i class="fa fa-dribbble"></i></a></li>
-                                        <li><a href="index.html#"><i class="fa fa-behance"></i></a></li>
-                                        <li><a href="index.html#"><i class="fa fa-github"></i></a></li>
-                                        <li><a href="index.html#"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a href="{{$setting->telegram}}"><i class="fa fa-telegram"></i></a></li>
+                                        <li><a href="{{$setting->facebook}}"><i class="fa fa-facebook-f"></i></a></li>
+                                        <li><a href="{{$setting->instagram}}"><i class="fa fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
                             </div>

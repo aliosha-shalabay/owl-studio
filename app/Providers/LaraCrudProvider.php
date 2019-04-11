@@ -19,16 +19,16 @@ class LaraCrudProvider extends ServiceProvider
             'title' => 'Заявки',
             'icon' => 'fa-tree'
         ],
-        'App\Http\Node\BlogNode' => [
-            'priory' => 2,
-            'title' => 'Блог',
+        'App\Http\Node\SettingNode' => [
+            'priory' => 1,
+            'title' => 'Налаштування',
             'icon' => 'fa-tree'
         ]
     ];
 
     protected $nodes = [
         'App\Http\Node\Model\RequestNodeModel'         => 'App\Http\Node\RequestNode',
-        'App\Http\Node\Model\BlogNodeModel'         => 'App\Http\Node\BlogNode',
+        'App\Http\Node\Model\SettingNodeModel'         => 'App\Http\Node\SettingNode',
     ];
 
     public function boot()

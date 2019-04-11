@@ -11,7 +11,7 @@
                 <li><a class="go_to" href="#service">Services</a></li>
                 <li><a class="go_to" href="#about">About</a></li>
                 <li><a class="go_to" href="#portfolio">Portfolio</a></li>
-                <li><a class="go_to" href="#blog">Blog</a></li>
+                <li><a class="go_to" href="#Pricing">Pricing</a></li>
                 <li><a class="go_to" href="#contact">Contact</a></li>
             </ul>
         </div>

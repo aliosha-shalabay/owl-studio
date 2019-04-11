@@ -117,6 +117,12 @@ $(document).ready(function () {
 
             flag = false;
 
+                jQuery('.progress-bar').each(function(){
+                    jQuery(this).animate({
+                        width:jQuery(this).children().text()
+                    },2000);
+                });
+
             $('.counter').each(function() {
                 var $this = $(this),
                     countTo = $this.attr('data-count');

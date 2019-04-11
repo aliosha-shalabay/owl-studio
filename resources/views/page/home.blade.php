@@ -5,6 +5,6 @@
     @include('section.home.about')
     @include('section.home.count')
     @include('section.home.portfolio')
-    @include('section.home.blog')
+    @include('section.home.price')
     @include('section.home.contact')
 @endsection
