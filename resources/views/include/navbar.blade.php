@@ -7,7 +7,7 @@
             </div>
             <div class="responsive"><i class="fa fa-bars"></i></div>
             <ul class="nav-menu">
-                <li><a class="go_to" href="#header">Home</a></li>
+                <li><a class="go_to" href="#header">@lang('all.home')</a></li>
                 <li><a class="go_to" href="#service">Services</a></li>
                 <li><a class="go_to" href="#about">About</a></li>
                 <li><a class="go_to" href="#portfolio">Portfolio</a></li>

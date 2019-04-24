@@ -13,7 +13,7 @@
 
 Auth::routes();
 
-Route::get('home', 'HomeController@index')->name('home');
-Route::get('/', 'HomeController@index')->name('index');
+Route::get('home/{locale?}', 'HomeController@index')->name('home');
+Route::get('/{locale?}', 'HomeController@index')->name('index');
 
 Route::post('create-request', 'HomeController@createRequest')->name('create-request');

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Node\Model\RequestNodeModel;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 
@@ -24,8 +25,10 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+    public function index($locale = null)
     {
+        App::setLocale(($locale) ? $locale : \app()->getLocale());
+
         return view('page.home');
     }
 

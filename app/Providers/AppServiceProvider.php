@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\Http\Node\Model\SettingNodeModel;
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 
@@ -18,6 +19,7 @@ class AppServiceProvider extends ServiceProvider
         View::composer(['section.home.contact', 'layouts.base'], function ($view) {
             $view->with(['setting' => SettingNodeModel::first()]);
         });
+
     }
 
     /**
