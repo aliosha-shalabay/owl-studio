@@ -17,7 +17,6 @@
  * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
  */
 .owl-carousel,.owl-carousel .owl-item{-webkit-tap-highlight-color:transparent;position:relative}.owl-carousel{display:none;width:100%;z-index:1}.owl-carousel .owl-stage{position:relative;-ms-touch-action:pan-Y;touch-action:manipulation;-moz-backface-visibility:hidden}.owl-carousel .owl-stage:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.owl-carousel .owl-stage-outer{position:relative;overflow:hidden;-webkit-transform:translate3d(0,0,0)}.owl-carousel .owl-item,.owl-carousel .owl-wrapper{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0)}.owl-carousel .owl-item{min-height:1px;float:left;-webkit-backface-visibility:hidden;-webkit-touch-callout:none}.owl-carousel .owl-item img{display:block;width:100%}.owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled{display:none}.no-js .owl-carousel,.owl-carousel.owl-loaded{display:block}.owl-carousel .owl-dot,.owl-carousel .owl-nav .owl-next,.owl-carousel .owl-nav .owl-prev{cursor:pointer;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel .owl-nav button.owl-next,.owl-carousel .owl-nav button.owl-prev,.owl-carousel button.owl-dot{background:0 0;color:inherit;border:none;padding:0!important;font:inherit}.owl-carousel.owl-loading{opacity:0;display:block}.owl-carousel.owl-hidden{opacity:0}.owl-carousel.owl-refresh .owl-item{visibility:hidden}.owl-carousel.owl-drag .owl-item{-ms-touch-action:pan-y;touch-action:pan-y;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel.owl-grab{cursor:move;cursor:grab}.owl-carousel.owl-rtl{direction:rtl}.owl-carousel.owl-rtl .owl-item{float:right}.owl-carousel .animated{animation-duration:1s;animation-fill-mode:both}.owl-carousel .owl-animated-in{z-index:0}.owl-carousel .owl-animated-out{z-index:1}.owl-carousel .fadeOut{animation-name:fadeOut}@keyframes fadeOut{0%{opacity:1}100%{opacity:0}}.owl-height{transition:height .5s ease-in-out}.owl-carousel .owl-item .owl-lazy{opacity:0;transition:opacity .4s ease}.owl-carousel .owl-item .owl-lazy:not([src]),.owl-carousel .owl-item .owl-lazy[src^=""]{max-height:0}.owl-carousel .owl-item img.owl-lazy{transform-style:preserve-3d}.owl-carousel .owl-video-wrapper{position:relative;height:100%;background:#000}.owl-carousel .owl-video-play-icon{position:absolute;height:80px;width:80px;left:50%;top:50%;margin-left:-40px;margin-top:-40px;background:url(owl.video.play.png) no-repeat;cursor:pointer;z-index:1;-webkit-backface-visibility:hidden;transition:transform .1s ease}.owl-carousel .owl-video-play-icon:hover{-ms-transform:scale(1.3,1.3);transform:scale(1.3,1.3)}.owl-carousel .owl-video-playing .owl-video-play-icon,.owl-carousel .owl-video-playing .owl-video-tn{display:none}.owl-carousel .owl-video-tn{opacity:0;height:100%;background-position:center center;background-repeat:no-repeat;background-size:contain;transition:opacity .4s ease}.owl-carousel .owl-video-frame{position:relative;z-index:1;height:100%;width:100%}
-
 /**
  -------------------------------------------------------
  Template Name: Romio - Personal Portfolio Template
@@ -96,7 +95,7 @@ a:hover {
     transition: all 0.5s ease-in-out 0s;
 }
 
-a:hover, a:focus , a:active{
+a:hover, a:focus, a:active {
     color: #d35666;
     text-decoration: none;
 }
@@ -109,9 +108,11 @@ p {
     line-height: 25px;
     font-family: 'Kanit', sans-serif;
 }
-img{
+
+img {
     width: 100%;
 }
+
 button:focus {
     outline: none;
 }
@@ -243,6 +244,7 @@ textarea.form-control {
     z-index: 9999;
     position: fixed;
 }
+
 .spinner {
     width: 40px;
     height: 40px;
@@ -258,7 +260,9 @@ textarea.form-control {
 }
 
 @-webkit-keyframes sk-scaleout {
-    0% { -webkit-transform: scale(0) }
+    0% {
+        -webkit-transform: scale(0)
+    }
     100% {
         -webkit-transform: scale(1.0);
         opacity: 0;
@@ -269,12 +273,14 @@ textarea.form-control {
     0% {
         -webkit-transform: scale(0);
         transform: scale(0);
-    } 100% {
-          -webkit-transform: scale(1.0);
-          transform: scale(1.0);
-          opacity: 0;
-      }
+    }
+    100% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        opacity: 0;
+    }
 }
+
 /**
 -------------------------------------------------------
                        02. Navbar
@@ -296,7 +302,7 @@ nav {
     float: right;
     line-height: 32px;
     margin-bottom: 0;
-    padding-top:5px;
+    padding-top: 5px;
     overflow: hidden;
 }
 
@@ -328,11 +334,13 @@ nav ul li a {
 .logo {
     float: left;
 }
+
 .responsive {
     display: none;
     font-size: 23px;
     cursor: pointer;
 }
+
 /**
 -------------------------------------------------------
                        03. Header
@@ -370,22 +378,25 @@ nav ul li a {
     color: #fff;
     margin-top: 15px;
 }
-.header-content .line-gradient{
+
+.header-content .line-gradient {
     width: 20%;
     margin: 20px auto;
     height: 4px;
-    background: rgba(215,236,244,1);
-    background: -moz-linear-gradient(left, rgba(215,236,244,1) 0%, rgba(210,55,73,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(215,236,244,1)), color-stop(100%, rgba(210,55,73,1)));
-    background: -webkit-linear-gradient(left, rgba(215,236,244,1) 0%, rgba(210,55,73,1) 100%);
-    background: -o-linear-gradient(left, rgba(215,236,244,1) 0%, rgba(210,55,73,1) 100%);
-    background: -ms-linear-gradient(left, rgba(215,236,244,1) 0%, rgba(210,55,73,1) 100%);
-    background: linear-gradient(to right, rgba(215,236,244,1) 0%, rgba(210,55,73,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7ecf4', endColorstr='#d23749', GradientType=1 );
+    background: rgba(215, 236, 244, 1);
+    background: -moz-linear-gradient(left, rgba(215, 236, 244, 1) 0%, rgba(210, 55, 73, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(215, 236, 244, 1)), color-stop(100%, rgba(210, 55, 73, 1)));
+    background: -webkit-linear-gradient(left, rgba(215, 236, 244, 1) 0%, rgba(210, 55, 73, 1) 100%);
+    background: -o-linear-gradient(left, rgba(215, 236, 244, 1) 0%, rgba(210, 55, 73, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(215, 236, 244, 1) 0%, rgba(210, 55, 73, 1) 100%);
+    background: linear-gradient(to right, rgba(215, 236, 244, 1) 0%, rgba(210, 55, 73, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d7ecf4', endColorstr='#d23749', GradientType=1);
 }
+
 .header-content h5 {
     color: #fff;
 }
+
 /*-- animated headline --*/
 .cd-words-wrapper {
     display: inline-block;
@@ -465,14 +476,14 @@ nav ul li a {
 .icon-scroll {
     width: 20px;
     height: 30px;
-    position:absolute;
-    left:50%;
-    bottom:40px;
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
     margin-left: -9px;
     box-shadow: inset 0 0 0 2px #000;
     border-radius: 25px;
-    opacity:0.75;
-    cursor:pointer;
+    opacity: 0.75;
+    cursor: pointer;
     -webkit-transition: all 0.2s ease-in-out 0s;
     -moz-transition: all 0.2s ease-in-out 0s;
     -o-transition: all 0.2s ease-in-out 0s;
@@ -487,7 +498,7 @@ nav ul li a {
 }
 
 .icon-scroll:hover {
-    opacity:1;
+    opacity: 1;
 }
 
 .icon-scroll:before {
@@ -504,7 +515,7 @@ nav ul li a {
     animation-iteration-count: infinite;
     -webkit-animation-name: scroll;
     animation-name: scroll;
-    position:absolute;
+    position: absolute;
 }
 
 #header .icon-scroll {
@@ -563,9 +574,11 @@ nav ul li a {
 #about .about-cv-btn i {
     margin-left: 10px;
 }
+
 .about-img {
     position: relative;
 }
+
 .about-img::before {
     position: absolute;
     left: -30px;
@@ -577,7 +590,8 @@ nav ul li a {
     /*background: #efefef;*/
     border-radius: 4px;
 }
-.about-img img{
+
+.about-img img {
     margin-top: 90px;
     border-radius: 4px;
 }
@@ -587,15 +601,18 @@ nav ul li a {
     font-weight: 700;
     margin-bottom: 20px;
 }
+
 .skill-part h3 span {
     font-size: 18px;
 }
+
 .progress {
     overflow: visible;
     height: 5px;
     margin-bottom: 30px;
     background: #efefef;
 }
+
 .progress-title {
     display: block;
     margin: 0 0 15px;
@@ -604,10 +621,11 @@ nav ul li a {
     letter-spacing: 0.5px;
     color: #333333;
 }
+
 .progress-bar {
     position: relative;
     /*background-color: #d35666;*/
-    background: linear-gradient(to right, rgba(215,236,244,1) 0%, rgba(210,55,73,1) 100%);
+    background: linear-gradient(to right, rgba(215, 236, 244, 1) 0%, rgba(210, 55, 73, 1) 100%);
     position: relative;
     z-index: 176;
     border-width: 0px;
@@ -629,6 +647,7 @@ nav ul li a {
 .about-cv-btn {
     margin-top: 25px;
 }
+
 /**
 -------------------------------------------------------
                        05. Services
@@ -664,6 +683,7 @@ nav ul li a {
     background: #ffffff;
     transition: all 0.3s;
 }
+
 .services-item:hover {
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.10);
     transition: all 0.3s;
@@ -709,6 +729,7 @@ nav ul li a {
 .owl-nav {
     display: none;
 }
+
 /**
 -------------------------------------------------------
                        06. Counter Up
@@ -752,6 +773,7 @@ nav ul li a {
 .item-heading {
     margin-top: 10px;
 }
+
 /**
 -------------------------------------------------------
                        07. Portfolio
@@ -813,6 +835,7 @@ nav ul li a {
     width: 100%;
     border-radius: 2px;
 }
+
 .portfolio-single-item {
     position: relative;
     display: block;
@@ -848,6 +871,7 @@ nav ul li a {
     -webkit-transition: .3s;
     transition: .3s;
 }
+
 .portfolio-single-item .portfolio-item-title:hover .portfolio-title {
     opacity: 1;
     visibility: visible;
@@ -873,9 +897,11 @@ nav ul li a {
     padding-bottom: 60px;
     position: relative;
 }
+
 .blog-item {
     display: block;
 }
+
 .blog-item img {
     width: 100%;
 }
@@ -900,7 +926,7 @@ nav ul li a {
     transition: all 0.5s ease-in-out 0s;
 }
 
-.blog-item:hover h4{
+.blog-item:hover h4 {
     color: #d35666;
     -moz-transition: all 0.5s ease-in-out 0s;
     -ms-transition: all 0.5s ease-in-out 0s;
@@ -914,6 +940,7 @@ nav ul li a {
     font-size: 14px;
     line-height: 24px;
 }
+
 .blog-text .blog-date {
     position: absolute;
     top: -47px;
@@ -966,6 +993,7 @@ button.btn:hover i {
     -o-transform: translateX(7px);
     transform: translateX(7px);
 }
+
 /**
 -------------------------------------------------------
                        10. Footer
@@ -1020,19 +1048,21 @@ button.btn:hover i {
 #footer p {
     font-size: 12px;
     letter-spacing: 0.1em;
-    color:#fff;
+    color: #fff;
     margin-top: 0;
     text-transform: uppercase;
 }
 
 
-.header-content{
+.header-content {
     text-align: center;
 }
-.no-visible{
+
+.no-visible {
     display: none;
 }
-.js-loader{
+
+.js-loader {
     background-image: url(../images/loader.gif);
     background-repeat: no-repeat;
     padding: 10px 18px;
@@ -1100,11 +1130,12 @@ button.btn:hover i {
 .Pricing-box .pricing-features ul li {
     padding: 6px;
 }
-.Pricing-box .spacing-grid .about-cv-btn{
+
+.Pricing-box .spacing-grid .about-cv-btn {
     margin-top: 0;
 }
 
-h2.title-about{
+h2.title-about {
     font-size: 22px;
     color: #292929;
     font-weight: 600;
@@ -1113,11 +1144,17 @@ h2.title-about{
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 20px;
 }
-.about-text p{
+
+.about-text p {
     margin-bottom: 10px;
 }
-#service{
+
+#service {
     padding-bottom: 0;
+}
+
+li.lang-togll {
+    margin-top: -9px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 }

@@ -13,6 +13,7 @@
                 <li><a class="go_to" href="#portfolio">@lang('all.portfolio')</a></li>
                 <li><a class="go_to" href="#Pricing">@lang('all.pricing')</a></li>
                 <li><a class="go_to" href="#contact">@lang('all.contact')</a></li>
+                <li class="lang-togll"><a href="/en">EN</a><a href="/uk">UK</a></li>
             </ul>
         </div>
     </div>
