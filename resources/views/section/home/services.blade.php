@@ -5,18 +5,18 @@
             <div class="col-lg-4 col-md-6">
                 <div class="services-item">
                     <i class="fa fa-desktop" aria-hidden="true"></i>
-                    <span>WEB DESIGN</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    <span>@lang('all.main_slider_1')</span>
+                    <p>@lang('all.services_title_sub_1')</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-                <div class="services-item"> <i class="fa fa-code" aria-hidden="true"></i> <span>WEB DEVELOPMENT</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <div class="services-item"> <i class="fa fa-code" aria-hidden="true"></i> <span>@lang('all.main_slider_2')</span>
+                    <p>@lang('all.services_title_sub_2')</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-                <div class="services-item"> <i class="fa fa-mobile" aria-hidden="true"></i> <span>RESPONSIVE DESIGN</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <div class="services-item"> <i class="fa fa-mobile" aria-hidden="true"></i> <span>@lang('all.main_slider_3')</span>
+                    <p>@lang('all.services_title_sub_3')</p>
                 </div>
             </div>
         </div>

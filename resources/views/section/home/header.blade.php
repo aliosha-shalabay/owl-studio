@@ -6,16 +6,16 @@
                 <div class="header-content">
                     <h2 class="cd-headline clip is-full-width">
 							<span class="cd-words-wrapper">
-								<b class="is-visible">I'm Creative</b>
-								<b class="is-hidden">I'm Freelancer.</b>
-								<b class="is-hidden">I'm Developer.</b>
+								<b class="is-visible">@lang('all.main_slider_1')</b>
+								<b class="is-hidden">@lang('all.main_slider_2')</b>
+								<b class="is-hidden">@lang('all.main_slider_3')</b>
 							</span>
                     </h2>
                     <h5 class="cd-headline clip is-full-width">
 							<span class="cd-words-wrapper">
-								<b class="is-visible">I'm Creative</b>
-								<b class="is-hidden">I'm Freelancer.</b>
-								<b class="is-hidden">I'm Developer.</b>
+								<b class="is-visible">@lang('all.main_slider_sub_1')</b>
+								<b class="is-hidden">@lang('all.main_slider_sub_2')</b>
+								<b class="is-hidden">@lang('all.main_slider_sub_3')</b>
 							</span>
                     </h5>
                     <p class="line-gradient"></p>

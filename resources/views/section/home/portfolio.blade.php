@@ -2,18 +2,16 @@
 <section id="portfolio" class="section-padding">
     <div class="container">
         <div class="section-title">
-            <h6 class="heading-small">RECENT WORK</h6>
-            <h2>My Portfolio</h2> </div>
+            <h6 class="heading-small">@lang('all.portfolio_title_1')</h6>
+            <h2>@lang('all.portfolio_title_3')</h2> </div>
         <div class="row">
             <div class="col-md-12">
                 <div class="portfolio-list">
                     <ul class="nav" id="portfolio-flters">
-                        <li class="filter filter-active" data-filter=".all">all</li>
-                        <li class="filter" data-filter=".branding">branding</li>
-                        <li class="filter" data-filter=".mockups">application</li>
-                        <li class="filter" data-filter=".uikits">print</li>
-                        <li class="filter" data-filter=".webdesign">web design</li>
-                        <li class="filter" data-filter=".photography">photography</li>
+                        <li class="filter filter-active" data-filter=".all">@lang('all.all')</li>
+                        <li class="filter" data-filter=".branding">@lang('all.visitka')</li>
+                        <li class="filter" data-filter=".mockups">@lang('all.landing_page')</li>
+                        <li class="filter" data-filter=".uikits">@lang('all.e_commerce')</li>
                     </ul>
                 </div>
                 <div class="portfolio-container">

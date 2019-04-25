@@ -8,11 +8,11 @@
             <div class="responsive"><i class="fa fa-bars"></i></div>
             <ul class="nav-menu">
                 <li><a class="go_to" href="#header">@lang('all.home')</a></li>
-                <li><a class="go_to" href="#service">Services</a></li>
-                <li><a class="go_to" href="#about">About</a></li>
-                <li><a class="go_to" href="#portfolio">Portfolio</a></li>
-                <li><a class="go_to" href="#Pricing">Pricing</a></li>
-                <li><a class="go_to" href="#contact">Contact</a></li>
+                <li><a class="go_to" href="#service">@lang('all.services')</a></li>
+                <li><a class="go_to" href="#about">@lang('all.about')</a></li>
+                <li><a class="go_to" href="#portfolio">@lang('all.portfolio')</a></li>
+                <li><a class="go_to" href="#Pricing">@lang('all.pricing')</a></li>
+                <li><a class="go_to" href="#contact">@lang('all.contact')</a></li>
             </ul>
         </div>
     </div>

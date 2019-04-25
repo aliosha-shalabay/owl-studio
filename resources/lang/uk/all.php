@@ -21,9 +21,9 @@ return [
     'services_title_1' => 'ВЕБ ДИЗАЙН',
     'services_title_2' => 'ВЕБ-РОЗРОБКА',
     'services_title_3' => 'ВІДПОВІДАЛЬНИЙ ДИЗАЙН',
-    'services_title_sub_1' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
-    'services_title_sub_2' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
-    'services_title_sub_3' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
+    'services_title_sub_1' => 'Lorem ipsum dolor sit amet',
+    'services_title_sub_2' => 'Lorem ipsum dolor sit amet',
+    'services_title_sub_3' => 'Lorem ipsum dolor sit amet',
     //------------------------------------------------------------------------------------------------------------------
 
     'about_who' => 'ХТО МИ?',
@@ -47,6 +47,7 @@ return [
     'visitka' => 'Сайт візитка',
     'landing_page' => 'Langing Page',
     'e_commerce' => 'Інтернет магазин',
+    'all' => 'Все',
     //------------------------------------------------------------------------------------------------------------------
 
     'pricing_title_1' => 'ТАБЛИЦЯ ЦІН',
@@ -66,7 +67,8 @@ return [
     'here' => 'HIRE ME',
     //------------------------------------------------------------------------------------------------------------------
 
-    'contact_title_1' => 'ПРИВІТАЙСЯ',
+    'contact_title_1' => 'НАЛАГОДИТИ ЗВ\'ЯЗОК',
+    'contact_title_2' => 'ПРИВІТАЙСЯ',
     'contact_phone' => 'Телефон',
     'contact_email' => 'E-mail',
     'contact_address' => 'Адресса',

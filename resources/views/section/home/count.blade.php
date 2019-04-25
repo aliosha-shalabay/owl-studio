@@ -6,7 +6,7 @@
                 <div class="review-single-item">
                     <div class="item-text"> <i class="fa fa-heart-o"></i> <span class="counter" data-count="5000">0</span> </div>
                     <div class="item-heading">
-                        <h3>Satisfied Clients</h3>
+                        <h3>@lang('all.counter_1')</h3>
                     </div>
                 </div>
             </div>
@@ -14,7 +14,7 @@
                 <div class="review-single-item">
                     <div class="item-text"> <i class="fa fa-star-o"></i> <span class="counter" data-count="15">0</span> </div>
                     <div class="item-heading">
-                        <h3>Years' Experience</h3>
+                        <h3>@lang('all.counter_2')</h3>
                     </div>
                 </div>
             </div>
@@ -22,7 +22,7 @@
                 <div class="review-single-item">
                     <div class="item-text"> <i class="fa fa-user-o"></i> <span class="counter" data-count="300">0</span> </div>
                     <div class="item-heading">
-                        <h3>Team Members</h3>
+                        <h3>@lang('all.counter_3')</h3>
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@
                 <div class="review-single-item">
                     <div class="item-text"> <i class="fa fa-trophy"></i> <span class="counter" data-count="1000">0</span> </div>
                     <div class="item-heading">
-                        <h3>Awrds</h3>
+                        <h3>@lang('all.counter_4')</h3>
                     </div>
                 </div>
             </div>
