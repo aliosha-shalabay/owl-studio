@@ -11,9 +11,11 @@
 |
 */
 
-Auth::routes();
+Auth::routes(['reset' => false, 'register' => false,]);
 
 Route::get('home/{locale?}', 'HomeController@index')->name('home');
 Route::get('/{locale?}', 'HomeController@index')->name('index');
 
 Route::post('create-request', 'HomeController@createRequest')->name('create-request');
+
+Route::get('/home', 'HomeController@index')->name('home');

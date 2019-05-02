@@ -10,8 +10,8 @@ return [
     'contact' => 'Контакти',
     //------------------------------------------------------------------------------------------------------------------
 
-    'main_slider_1' => 'Дизайн',
-    'main_slider_2' => 'Розробка',
+    'main_slider_1' => 'Веб-дизайн',
+    'main_slider_2' => 'Веб-розробка',
     'main_slider_3' => 'Просування',
     'main_slider_sub_1' => 'I\'m Creative I\'m Freelancer.I\'m Develop',
     'main_slider_sub_2' => 'I\'m Creative I\'m Freelancer.I\'m Develop',
@@ -30,8 +30,8 @@ return [
     'about_title' => 'VIVAMUS MAGNA JUSTO',
     'about_body_1' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
     'about_body_2' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
-    'about_skils_1' => 'Дизайн',
-    'about_skils_2' => 'Розробка',
+    'about_skils_1' => 'Веб-дизайн',
+    'about_skils_2' => 'Веб-розробка',
     'about_skils_3' => 'Просування',
     'about_skils_4' => 'Web Development',
     //------------------------------------------------------------------------------------------------------------------
