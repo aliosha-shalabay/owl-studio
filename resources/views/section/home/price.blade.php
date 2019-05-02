@@ -3,7 +3,7 @@
     <div class="container text-center">
         <div class="section-title">
             <h6 class="heading-small">@lang('all.pricing_title_1')</h6>
-            <h2>@lang('all.pricing_title_2')</h2>
+{{--            <h2>@lang('all.pricing_title_2')</h2>--}}
         </div>
         <div class="spacer-60"></div>
         <div class="row">
@@ -14,7 +14,7 @@
                     </div>
                     <hr/>
                     <div class="spacing-box">
-                        <div class="price"><span class="price-sm">$</span><span class="price-lg">49</span></div>
+                        <div class="price"><span class="price-lg">850</span><span class="price-sm">$</span></div>
                         <div class="price-tenure">@lang('all.from')</div>
                     </div>
                     <hr/>
@@ -29,8 +29,7 @@
                     <hr/>
                     <div class="spacing-grid">
                         <div class="about-cv-btn">
-                            <a href="#contact" class="go_to btn-hover btn">@lang('all.here')<i
-                                        class="fa fa-paper-plane"></i><span style="top: 254px; left: 217px;"></span></a>
+                            <a href="#contact" class="go_to btn-hover btn">@lang('all.here')<span style="top: 254px; left: 217px;"></span></a>
                         </div>
                     </div>
                 </div>
@@ -42,7 +41,7 @@
                     </div>
                     <hr/>
                     <div class="spacing-box">
-                        <div class="price"><span class="price-sm">$</span><span class="price-lg">79</span></div>
+                        <div class="price"><span class="price-lg">600</span><span class="price-sm">$</span></div>
                         <div class="price-tenure">@lang('all.from')</div>
                     </div>
                     <hr/>
@@ -57,8 +56,7 @@
                     <hr/>
                     <div class="spacing-grid">
                         <div class="about-cv-btn">
-                            <a href="#contact" class="go_to btn-hover btn">@lang('all.here')<i
-                                        class="fa fa-paper-plane"></i><span style="top: 254px; left: 217px;"></span></a>
+                            <a href="#contact" class="go_to btn-hover btn">@lang('all.here')<span style="top: 254px; left: 217px;"></span></a>
                         </div>
                     </div>
                 </div>
@@ -70,7 +68,7 @@
                     </div>
                     <hr/>
                     <div class="spacing-box">
-                        <div class="price"><span class="price-sm">$</span><span class="price-lg">109</span></div>
+                        <div class="price"><span class="price-lg">1600</span><span class="price-sm">$</span></div>
                         <div class="price-tenure">@lang('all.from')</div>
                     </div>
                     <hr/>
@@ -85,8 +83,7 @@
                     <hr/>
                     <div class="spacing-grid">
                         <div class="about-cv-btn">
-                            <a href="#contact" class="go_to btn-hover btn">@lang('all.here')<i
-                                        class="fa fa-paper-plane"></i><span style="top: 254px; left: 217px;"></span></a>
+                            <a href="#contact" class="go_to btn-hover btn">@lang('all.here')<span style="top: 254px; left: 217px;"></span></a>
                         </div>
                     </div>
                 </div>

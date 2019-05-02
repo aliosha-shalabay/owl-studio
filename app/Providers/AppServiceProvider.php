@@ -16,7 +16,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        View::composer(['section.home.contact', 'layouts.base'], function ($view) {
+        View::composer(['page.home'], function ($view) {
             $view->with(['setting' => SettingNodeModel::first()]);
         });
 

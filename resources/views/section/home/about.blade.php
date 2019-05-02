@@ -23,14 +23,14 @@
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0"
                                      aria-valuemax="100">
-                                    <span>85%</span>
+                                    <span>89%</span>
                                 </div>
                             </div>
                             <h4 class="progress-title">@lang('all.about_skils_2')</h4>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0"
                                      aria-valuemax="100">
-                                    <span>90%</span>
+                                    <span>95%</span>
                                 </div>
                             </div>
                             <h4 class="progress-title">@lang('all.about_skils_3')</h4>
@@ -41,13 +41,13 @@
                                 </div>
                             </div>
 
-                            <h4 class="progress-title">@lang('all.about_skils_4')</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0"
-                                     aria-valuemax="100">
-                                    <span>95%</span>
-                                </div>
-                            </div>
+{{--                            <h4 class="progress-title">@lang('all.about_skils_4')</h4>--}}
+{{--                            <div class="progress">--}}
+{{--                                <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0"--}}
+{{--                                     aria-valuemax="100">--}}
+{{--                                    <span>95%</span>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
                         </div>
                     </div>
 

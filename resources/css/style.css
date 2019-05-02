@@ -304,7 +304,7 @@ nav ul li a {
     font-weight: 600;
     line-height: 16px;
     letter-spacing: 0.5px;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     -moz-transition: all 0.5s ease-in-out 0s;
     -ms-transition: all 0.5s ease-in-out 0s;
     -o-transition: all 0.5s ease-in-out 0s;
@@ -784,7 +784,7 @@ nav ul li a {
     cursor: pointer;
     font-weight: 500;
     letter-spacing: 0.5px;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     -moz-transition: all 0.5s ease-in-out 0s;
     -ms-transition: all 0.5s ease-in-out 0s;
     -o-transition: all 0.5s ease-in-out 0s;
@@ -1136,4 +1136,11 @@ h2.title-about {
 
 li.lang-togll {
     margin-top: -9px;
+}
+nav ul li a {
+    text-transform:none!important;
+}
+div.logo a p{
+    font-size: 18px;
+    line-height: 0.5;
 }

@@ -3,7 +3,10 @@
     <div class="row">
         <div class="container">
             <div class="logo">
-                <a href="/"><h3>Romio</h3></a>
+                <a href="/">
+                    <h3>OWL</h3>
+                    <p>STUDIO</p>
+                </a>
             </div>
             <div class="responsive"><i class="fa fa-bars"></i></div>
             <ul class="nav-menu">

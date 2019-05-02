@@ -11,22 +11,19 @@
 								<b class="is-hidden">@lang('all.main_slider_3')</b>
 							</span>
                     </h2>
-                    <h5 class="cd-headline clip is-full-width">
-							<span class="cd-words-wrapper">
-								<b class="is-visible">@lang('all.main_slider_sub_1')</b>
-								<b class="is-hidden">@lang('all.main_slider_sub_2')</b>
-								<b class="is-hidden">@lang('all.main_slider_sub_3')</b>
-							</span>
-                    </h5>
+{{--                    <h5 class="cd-headline clip is-full-width">--}}
+{{--							<span class="cd-words-wrapper">--}}
+{{--								<b class="is-visible">@lang('all.main_slider_sub_1')</b>--}}
+{{--								<b class="is-hidden">@lang('all.main_slider_sub_2')</b>--}}
+{{--								<b class="is-hidden">@lang('all.main_slider_sub_3')</b>--}}
+{{--							</span>--}}
+{{--                    </h5>--}}
                     <p class="line-gradient"></p>
-                    <!--<ul class="list-social">-->
-                    <!--<li><a href="index.html#"><i class="fa fa-facebook-f"></i></a></li>-->
-                    <!--<li><a href="index.html#"><i class="fa fa-twitter"></i></a></li>-->
-                    <!--<li><a href="index.html#"><i class="fa fa-dribbble"></i></a></li>-->
-                    <!--<li><a href="index.html#"><i class="fa fa-behance"></i></a></li>-->
-                    <!--<li><a href="index.html#"><i class="fa fa-github"></i></a></li>-->
-                    <!--<li><a href="index.html#"><i class="fa fa-google-plus"></i></a></li>-->
-                    <!--</ul>-->
+                    <ul class="list-social">
+                        <li><a href="{{$setting->telegram}}"><i class="fa fa-telegram"></i></a></li>
+                        <li><a href="{{$setting->facebook}}"><i class="fa fa-facebook-f"></i></a></li>
+                        <li><a href="{{$setting->instagram}}"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
