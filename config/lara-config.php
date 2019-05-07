@@ -8,7 +8,7 @@
 
 return [
     'admin_panel_name' => ['LaraAdmin', '/admin'],
-    'middleware' => ['is_admin', 'web'],
+    'middleware' => ['web', 'admin'],
     'url_group' => 'admin',
     'field_disable' => [
         'created_at',

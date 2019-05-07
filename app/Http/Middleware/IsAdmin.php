@@ -21,5 +21,6 @@ class IsAdmin
         }else{
             return redirect(route('login'));
         }
+
     }
 }
