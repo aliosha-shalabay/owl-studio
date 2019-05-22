@@ -22,10 +22,10 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <div class="contact-details">
-                                <h5>@lang('all.contact_address')</h5>
-                                <p>{{$setting->{'address_' . app()->getLocale()} }}</p>
-                            </div>
+{{--                            <div class="contact-details">--}}
+{{--                                <h5>@lang('all.contact_address')</h5>--}}
+{{--                                <p>{{$setting->{'address_' . app()->getLocale()} }}</p>--}}
+{{--                            </div>--}}
                         </div>
                         <div class="col-md-12">
                             <div class="contact-details">
