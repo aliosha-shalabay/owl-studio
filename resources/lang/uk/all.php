@@ -28,7 +28,7 @@ return [
 
     'about_who' => 'ХТО МИ?',
     'about_title' => 'VIVAMUS MAGNA JUSTO',
-    'about_body_1' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
+    'about_body_1' => 'Owl studio це невелика команда яка займається Web розробкою, дизайном і контекстною рекламою. ',
     'about_body_2' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
     'about_skils_1' => 'Веб-дизайн',
     'about_skils_2' => 'Веб-розробка',
