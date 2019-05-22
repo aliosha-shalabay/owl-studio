@@ -150,6 +150,9 @@
 }
 
 @media (max-width: 479px) {
+    .section-title .heading-small {
+        font-size: 36px;
+    }
     /* Navbar */
     nav {
         padding: 5px 15px;
