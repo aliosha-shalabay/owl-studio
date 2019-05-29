@@ -8,6 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="description" content="{{$setting->seo_desc}}">
     <meta name="Keywords" content="{{$setting->seo_keywords}}">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/icon.png" />
 
     <title>{{$setting->seo_title}}</title>
 
