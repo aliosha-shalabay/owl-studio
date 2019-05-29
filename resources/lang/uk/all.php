@@ -12,7 +12,7 @@ return [
 
     'main_slider_1' => 'Веб-дизайн',
     'main_slider_2' => 'Веб-розробка',
-    'main_slider_3' => 'Просування',
+    'main_slider_3' => 'Контекстна реклама',
     'main_slider_sub_1' => 'I\'m Creative I\'m Freelancer.I\'m Develop',
     'main_slider_sub_2' => 'I\'m Creative I\'m Freelancer.I\'m Develop',
     'main_slider_sub_3' => 'I\'m Creative I\'m Freelancer.I\'m Develop',
@@ -27,9 +27,10 @@ return [
     //------------------------------------------------------------------------------------------------------------------
 
     'about_who' => 'ХТО МИ?',
-    'about_title' => 'VIVAMUS MAGNA JUSTO',
-    'about_body_1' => 'Owl studio це невелика команда яка займається Web розробкою, дизайном і контекстною рекламою. ',
-    'about_body_2' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
+    'about_title' => 'OWL STUDIO',
+    'about_body_1' => 'Owl studio це невелика команда яка займається Web розробкою, дизайном і контекстною рекламою.',
+    'about_body_2' => 'У роботі ми використовуємо індивідуальний підхід до кожного клієнта і робимо все можливе, щоб грамотно вибудувати майбутнє вашого бізнесу.',
+    'about_body_3' => 'Коли ми робимо сайти, ми орієнтуємося на досягнення результату і максимальну віддачу, ми працюємо на підвищення конверсії і збільшення продажів.',
     'about_skils_1' => 'Веб-дизайн',
     'about_skils_2' => 'Веб-розробка',
     'about_skils_3' => 'Просування',
@@ -78,7 +79,6 @@ return [
     'contact_your_name' => 'Ваше ім\'я',
     'contact_your_email' => 'Ваше E-mail',
     'contact_button' => 'Відправити',
-
 
 
 ];

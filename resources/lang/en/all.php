@@ -12,7 +12,7 @@ return [
 
     'main_slider_1' => 'Web design',
     'main_slider_2' => 'Web development',
-    'main_slider_3' => 'Promotion',
+    'main_slider_3' => 'Contextual advertising',
     'main_slider_sub_1' => 'I\'m Creative I\'m Freelancer.I\'m Develop',
     'main_slider_sub_2' => 'I\'m Creative I\'m Freelancer.I\'m Develop',
     'main_slider_sub_3' => 'I\'m Creative I\'m Freelancer.I\'m Develop',
@@ -28,8 +28,9 @@ return [
 
     'about_who' => 'WHO WE?',
     'about_title' => 'VIVAMUS MAGNA JUSTO',
-    'about_body_1' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
-    'about_body_2' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
+    'about_body_1' => 'Owl studio is a small team that deals with Web design, design and contextual advertising.',
+    'about_body_2' => 'In the work, we use an individual approach to each client and do our best to build the future of your business competently.',
+    'about_body_3' => 'When we make websites, we focus on achieving results and maximizing returns, we work to increase conversions and increase sales.',
     'about_skils_1' => 'Web design',
     'about_skils_2' => 'Web development',
     'about_skils_3' => 'Promotion',

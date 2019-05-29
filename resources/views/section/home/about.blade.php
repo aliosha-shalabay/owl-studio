@@ -13,6 +13,7 @@
                 <div class="about-text">
                     <p>@lang('all.about_body_1')</p>
                     <p>@lang('all.about_body_2')</p>
+                    <p>@lang('all.about_body_3')</p>
                 </div>
             </div>
             <div class="col-lg-5">
