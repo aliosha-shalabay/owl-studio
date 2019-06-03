@@ -217,6 +217,8 @@ $(document).on('click', '.js-btn-send-request', function (e) {
 
         $('.alert-success-request').text(response.message).fadeIn(1500);
 
+        ga('send', 'event', "Order", '', 'Ok');
+
         setTimeout(function () {
             $('.alert-success-request').fadeOut(1000)
         }, 10000);
