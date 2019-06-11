@@ -209,6 +209,7 @@ $(window).on("load", function () {
 
 $(document).on('click', '.js-btn-send-request', function (e) {
     e.preventDefault();
+    ga('send', 'event', "Order", '', 'Ok');
 
     var response = sendForm($(this));
 
@@ -217,7 +218,6 @@ $(document).on('click', '.js-btn-send-request', function (e) {
 
         $('.alert-success-request').text(response.message).fadeIn(1500);
 
-        ga('send', 'event', "Order", '', 'Ok');
 
         setTimeout(function () {
             $('.alert-success-request').fadeOut(1000)
