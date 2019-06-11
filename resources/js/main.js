@@ -209,8 +209,6 @@ $(window).on("load", function () {
 
 $(document).on('click', '.js-btn-send-request', function (e) {
     e.preventDefault();
-    ga('send', 'event', "Order", '', 'Ok');
-
     var response = sendForm($(this));
 
     if (response.success){
