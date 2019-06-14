@@ -68,7 +68,7 @@
                     </div>
                     <hr/>
                     <div class="spacing-box">
-                        <div class="price"><span class="price-lg">100</span><span class="price-sm">$</span></div>
+                        <div class="price"><span class="price-lg">1000</span><span class="price-sm">$</span></div>
                         <div class="price-tenure">@lang('all.from')</div>
                     </div>
                     <hr/>
