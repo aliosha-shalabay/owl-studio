@@ -14,7 +14,7 @@
                     </div>
                     <hr/>
                     <div class="spacing-box">
-                        <div class="price"><span class="price-lg">850</span><span class="price-sm">$</span></div>
+                        <div class="price"><span class="price-lg">650</span><span class="price-sm">$</span></div>
                         <div class="price-tenure">@lang('all.from')</div>
                     </div>
                     <hr/>
@@ -68,7 +68,7 @@
                     </div>
                     <hr/>
                     <div class="spacing-box">
-                        <div class="price"><span class="price-lg">1600</span><span class="price-sm">$</span></div>
+                        <div class="price"><span class="price-lg">100</span><span class="price-sm">$</span></div>
                         <div class="price-tenure">@lang('all.from')</div>
                     </div>
                     <hr/>
