@@ -33,7 +33,7 @@ return [
     'about_body_3' => 'When we make websites, we focus on achieving results and maximizing returns, we work to increase conversions and increase sales.',
     'about_skils_1' => 'Web design',
     'about_skils_2' => 'Web development',
-    'about_skils_3' => 'Promotion',
+    'about_skils_3' => 'Contextual advertising',
     'about_skils_4' => 'Web Development',
     //------------------------------------------------------------------------------------------------------------------
 
