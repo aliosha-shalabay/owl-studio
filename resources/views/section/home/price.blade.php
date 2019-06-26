@@ -1,5 +1,5 @@
 <!-- Pricing Section -->
-<section id="Pricing" class="ptb ptb-sm-80">
+<section id="Pricing" data-wow-duration="1.5s" class="vis wow zoomIn ptb ptb-sm-80">
     <div class="container text-center">
         <div class="section-title">
             <h6 class="heading-small">@lang('all.pricing_title_1')</h6>

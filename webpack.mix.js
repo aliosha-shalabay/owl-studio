@@ -19,6 +19,7 @@ mix.combine([
     'node_modules/isotope-layout/dist/isotope.pkgd.min.js',
     'resources/js/animated.headline.js',
     'node_modules/jquery.counterup/jquery.counterup.js',
+    'node_modules/wowjs/dist/wow.min.js',
     'resources/js/main.js',
 ], 'public/js/all.js');
 
@@ -28,6 +29,7 @@ mix.combine([
     'node_modules/font-awesome/css/font-awesome.min.css',
     'node_modules/owl.carousel/dist/assets/owl.carousel.min.css',
     'node_modules/magnific-popup/dist/magnific-popup.css',
+    'node_modules/animate.css/animate.min.css',
     'resources/css/style.css',
     'resources/css/responsive.css',
 ], 'public/css/all.css');

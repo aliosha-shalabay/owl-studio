@@ -1,5 +1,5 @@
 <!-- Start About Section -->
-<section id="about" class="section-padding">
+<section id="about" data-wow-duration="1.5s" class="vis wow zoomIn section-padding">
     <div class="container">
         <div class="section-title">
             <h6 class="heading-small">@lang('all.about')</h6>

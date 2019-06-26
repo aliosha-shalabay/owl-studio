@@ -205,6 +205,8 @@ $(window).on("load", function () {
         });
     });
 
+    new WOW().init();
+
 });
 
 $(document).on('click', '.js-btn-send-request', function (e) {

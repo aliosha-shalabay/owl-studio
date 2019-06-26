@@ -1,5 +1,5 @@
 <!-- Start Personal Review Count Section -->
-<section id="count" class="section-padding dark-review">
+<section id="count" data-wow-duration="1.5s" class="vis wow zoomIn section-padding dark-review">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-6">

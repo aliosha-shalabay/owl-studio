@@ -831,8 +831,8 @@ nav ul li a {
     left: 0;
     -webkit-transition: all .4s;
     transition: all .4s;
-    opacity: 0;
-    background-color: rgba(255, 255, 255, 0.71);
+    opacity: 0.1;
+    background-color: rgba(138, 138, 138, 0.71);
 }
 
 .portfolio-single-item .portfolio-item-title:hover {
@@ -1143,4 +1143,7 @@ nav ul li a {
 div.logo a p{
     font-size: 18px;
     line-height: 0.5;
+}
+.vis{
+    visibility: hidden;
 }

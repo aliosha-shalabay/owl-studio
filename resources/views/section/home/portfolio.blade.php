@@ -1,5 +1,5 @@
 <!-- Start Portfolio Section  -->
-<section id="portfolio" class="section-padding">
+<section id="portfolio" data-wow-duration="1.5s" class="vis wow zoomIn  section-padding">
     <div class="container">
         <div class="section-title">
             <h6 class="heading-small">@lang('all.portfolio_title_1')</h6>
@@ -17,60 +17,30 @@
                 <div class="portfolio-container">
                     <!-- portfolio-item -->
                     <div class="col-lg-4 col-md-6 portfolio-grid-item all branding uikits webdesign">
-                        <a class="popup-img portfolio-single-item" href="images/portfolio/portf_1.jpg"> <img src="images/portfolio/portf_1.jpg" alt="img">
+                        <a class="popup-img portfolio-single-item" target="_blank" href="http://shop-diplom.owl-studio.com.ua:8080/"> <img src="images/portfolio/1.jpg" alt="img">
                             <div class="portfolio-item-title">
                                 <div class="portfolio-title">
-                                    <h6>View Project</h6>
+{{--                                    <h6>View Project</h6>--}}
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!-- portfolio-item -->
                     <div class="col-lg-4 col-md-6 portfolio-grid-item all mockups uikits photography">
-                        <a class="popup-img portfolio-single-item" href="images/portfolio/portf_2.jpg"> <img src="images/portfolio/portf_2.jpg" alt="img">
+                        <a class="popup-img portfolio-single-item" target="_blank" href="https://staysee.owl-studio.com.ua/"> <img src="images/portfolio/2.jpg" alt="img">
                             <div class="portfolio-item-title">
                                 <div class="portfolio-title">
-                                    <h6>View Project</h6>
+{{--                                    <h6>View Project</h6>--}}
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!-- portfolio-item -->
                     <div class="col-lg-4 col-md-6 portfolio-grid-item all branding webdesig photographyn">
-                        <a class="popup-img portfolio-single-item" href="images/portfolio/portf_3.jpg"> <img src="images/portfolio/portf_3.jpg" alt="img">
+                        <a class="popup-img portfolio-single-item" target="_blank" href="https://kharkiv-dnipro.owl-studio.com.ua/"> <img src="images/portfolio/3.jpg" alt="img">
                             <div class="portfolio-item-title">
                                 <div class="portfolio-title">
-                                    <h6>View Project</h6>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- portfolio-item -->
-                    <div class="col-lg-4 col-md-6 portfolio-grid-item all mockups webdesign photography">
-                        <a class="popup-img portfolio-single-item" href="images/portfolio/portf_4.jpg"> <img src="images/portfolio/portf_4.jpg" alt="img">
-                            <div class="portfolio-item-title">
-                                <div class="portfolio-title">
-                                    <h6>View Project</h6>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- portfolio-item -->
-                    <div class="col-lg-4 col-md-6 portfolio-grid-item all branding uikits photography">
-                        <a class="popup-img portfolio-single-item" href="images/portfolio/portf_5.jpg"> <img src="images/portfolio/portf_5.jpg" alt="img">
-                            <div class="portfolio-item-title">
-                                <div class="portfolio-title">
-                                    <h6>View Project</h6>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- portfolio-item -->
-                    <div class="col-lg-4 col-md-6 portfolio-grid-item all mockups uikits webdesign">
-                        <a class="popup-img portfolio-single-item" href="images/portfolio/portf_6.jpg"> <img src="images/portfolio/portf_6.jpg" alt="img">
-                            <div class="portfolio-item-title">
-                                <div class="portfolio-title">
-                                    <h6>View Project</h6>
+{{--                                    <h6>View Project</h6>--}}
                                 </div>
                             </div>
                         </a>

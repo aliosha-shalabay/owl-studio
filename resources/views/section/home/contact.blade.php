@@ -1,5 +1,5 @@
 <!-- Start Contact Sectoion -->
-<section id="contact" class="section-padding">
+<section id="contact" data-wow-duration="1.5s" class="vis wow zoomIn  section-padding">
     <div class="container">
         <div class="section-title">
             <h6 class="heading-small">@lang('all.contact_title_1')</h6>
