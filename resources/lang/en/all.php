@@ -80,6 +80,7 @@ return [
     'contact_your_email' => 'Your E-mail',
     'contact_button' => 'Send',
 
+    'how_it_title_1' => 'How we are working'
 
 
 ];

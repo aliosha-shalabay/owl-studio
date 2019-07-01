@@ -80,5 +80,6 @@ return [
     'contact_your_email' => 'Ваш E-mail',
     'contact_button' => 'Отправить',
 
+    'how_it_title_1' => 'Как мы работаем'
 
 ];
