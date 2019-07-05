@@ -1147,3 +1147,6 @@ div.logo a p{
 .vis{
     visibility: hidden;
 }
+#seo-text p{
+    margin-bottom: 15px;
+}

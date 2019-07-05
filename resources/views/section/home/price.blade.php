@@ -14,7 +14,7 @@
                     </div>
                     <hr/>
                     <div class="spacing-box">
-                        <div class="price"><span class="price-lg">400</span><span class="price-sm">$</span></div>
+                        <div class="price"><span class="price-lg">@lang('all.visitka_price')</span><span class="price-sm">@lang('all.currenci')</span></div>
                         <div class="price-tenure">@lang('all.from')</div>
                     </div>
                     <hr/>
@@ -41,7 +41,7 @@
                     </div>
                     <hr/>
                     <div class="spacing-box">
-                        <div class="price"><span class="price-lg">350</span><span class="price-sm">$</span></div>
+                        <div class="price"><span class="price-lg">@lang('all.landing_price')</span><span class="price-sm">@lang('all.currenci')</span></div>
                         <div class="price-tenure">@lang('all.from')</div>
                     </div>
                     <hr/>
@@ -68,7 +68,7 @@
                     </div>
                     <hr/>
                     <div class="spacing-box">
-                        <div class="price"><span class="price-lg">500</span><span class="price-sm">$</span></div>
+                        <div class="price"><span class="price-lg">@lang('all.e_commerce_price')</span><span class="price-sm"> @lang('all.currenci')</span></div>
                         <div class="price-tenure">@lang('all.from')</div>
                     </div>
                     <hr/>

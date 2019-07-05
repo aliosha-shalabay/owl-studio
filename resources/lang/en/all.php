@@ -67,6 +67,10 @@ return [
     'description_e_commerce_3' => 'Site management panel',
     'description_e_commerce_4' => 'Hosting for 1 year',
     'here' => 'ORDER',
+    'currenci' => '$',
+    'visitka_price' => '400',
+    'landing_price' => '350',
+    'e_commerce_price' => '500',
     //------------------------------------------------------------------------------------------------------------------
 
     'contact_title_1' => 'INSTALL THE COMMUNICATION',
@@ -80,7 +84,11 @@ return [
     'contact_your_email' => 'Your E-mail',
     'contact_button' => 'Send',
 
-    'how_it_title_1' => 'How we are working'
+    'how_it_title_1' => 'How we are working',
 
+    'seo_title_1' => 'Website creation: Landing Page, online store',
+    'seo_text_1' => 'Owl studio is a <strong> website creation </strong> studio that can make any wishes of customers. A quality <strong> online store </strong> or <strong> Landing page </strong> is the key to success business. He is the best customer search tool, bears the image component and is a kind of face of any the company. An important function of the <strong> Landing page </strong> is advertising, thanks to which any company attracts the attention of new customers.',
+    'seo_text_2' => 'We offer development and design services <strong> Landing page </strong>, <strong> creation sites </strong> and <strong> online stores </strong> complex structure using reliable and relevant programming systems. Our designers are ready realize the most extraordinary ideas of customers, discuss the smallest details and make an invaluable contribution at any project.',
+    'seo_text_3' => 'There are also <strong> website creation </strong> - business cards that are relevant for small companies and freelancers, development of large <strong> online stores </strong>, the functionality of which allows upload thousands of items products, create convenient catalogs, ensure prompt communication with customers. On stage the development of technical specifications we will discuss all the details for the successful creation of an ideal online store or Landing page for specific purposes. Registration of Internet resources doing the best designers who create sites on which customers linger for a long time!',
 
 ];

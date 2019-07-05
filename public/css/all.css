@@ -1177,6 +1177,9 @@ div.logo a p{
 .vis{
     visibility: hidden;
 }
+#seo-text p{
+    margin-bottom: 15px;
+}
 @media (min-width: 992px) and (max-width: 1199px) {
 }
 
